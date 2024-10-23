@@ -1,0 +1,3 @@
+pocet dnu typ pocasi:=IF(FIRSTNONBLANK(typ_pocasi[typ_pocasi];TRUE()) = "prselo";
+AVERAGEX(FILTER(data;data[srazky] >0);data[prumerna_teplota]);
+AVERAGEX(FILTER(data;data[srazky] = 0);data[prumerna_teplota]))
